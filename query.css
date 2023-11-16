@@ -1,0 +1,50 @@
+@media screen and (max-width:700px) {
+    .header{
+        height: 50px;
+        padding-bottom: 40px;
+        justify-content: center;
+    }
+    nav .nav-items{
+        display: none;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+        /* align-items: center; */
+        justify-content: center;
+        /* outline: 1px solid red; */
+        background: var(--sec-color);
+        padding: 10px;
+    }
+    .header h2{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:460px) {
+    .home-form{
+        width: 100%;
+    }
+   .home-form .la_form{
+        width: 300px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:350px) {
+    .home-form{
+        width: 100%;
+    }
+   .home-form .la_form{
+        width: 250px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:280px) {
+    .home-form{
+        width: 100%;
+    }
+   .home-form .la_form{
+        width: 170px;
+        padding: 20px;
+    }
+}
