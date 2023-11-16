@@ -139,9 +139,9 @@ input::placeholder{
     outline: none;
 }
 
-/* .navBtn{
-    box-shadow: 5px 1px rgb(204, 202, 202);
-} */
+.navBtn{
+   border-radius: 7px;
+} 
 .la_form .credit{
     text-align: center;
     font-size: 10px ;
